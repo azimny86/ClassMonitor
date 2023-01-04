@@ -1,31 +1,56 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Class Monitor
 
-Welcome USER_NAME,
+Class Monitor is a terminal program , with run in the Code Institute mock terminal on Heroku. Program is created to help owners of fitness clubs in track amount of people participating in classes.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
 
-## Reminders
+## How use
+Class Monitor was make with idea with helping a owners and instructors of fitness gyms . User on beginning log in a name of instructor. Next a program will ask for numbers of people participating in class with purchased membership from the gym , after that user will be ask to enter a number of people paying a single entry fee.
+User on the end will display the total number of people attending the class. All of data entered will be transfer to spreadsheet in this way gym owner with easy way can have track of amount of people participation in classes.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## Features
 
-## Creating the Heroku app
+### 
+- Input of name of Instructor
+	* Data will be assigned to name of instructor
+	PHOTO
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- Data enter amount of people with memberships
+	PHOTO
+- Data enter amount of people with single entry fee.
+	PHOTO
+- Program will display total amount of people participating in class
+	PHOTO
+-Checking the data entry
+	* Input must be enter
+	* Input can only be a number
 
-1. `heroku/python`
-2. `heroku/nodejs`
+### Future Features
+* Added the ability to enter the type of class
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Data Model 
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
+## Testing
+I manually tested the program does the following
+- Tested in my local GitPod terminal and Code Institut terminal
+- Passed the code through a PEP8 linter and confirmed there are no error
+- Attempt to enter invalid date
 
-## Constraints
+### Bugs
++
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+### Remaining bugs
+-
 
------
-Happy coding!
+### Validator Testing
+-
+
+## Deployment
+This project was deployed using a Code Institute's mock terminal for Heroku.
+- Fork or clone this repository 
+- Create a new app on Heroku 
+- Set buildpacks to Python and NodeJS
+- Link the app to the repository 
+- Deploy
+
+## Credits
